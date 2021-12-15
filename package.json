@@ -1,0 +1,40 @@
+{
+  "name": "vantages",
+  "version": "1.0.0",
+  "description": "Animating perspectives in a web browser",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "echo \"Hi.\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtdemey/vantages.git"
+  },
+  "author": "John Torsten",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jtdemey/vantages/issues"
+  },
+  "homepage": "https://github.com/jtdemey/vantages#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.16",
+    "@react-spring/web": "^9.3.1",
+    "framer-motion": "^5.4.5",
+    "next": "^12.0.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.12",
+    "@types/react": "^17.0.37",
+    "@types/styled-components": "^5.1.17",
+    "styled-components": "^5.3.3",
+    "typescript": "^4.5.3"
+  }
+}
