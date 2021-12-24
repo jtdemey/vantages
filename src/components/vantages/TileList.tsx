@@ -36,8 +36,9 @@ const Tile = styled(motion.li)`
   display: inline-block;
   max-width: 50%;
   margin: 0.25rem auto 0.25rem 0.25rem;
-  padding: 0.25rem;
+  padding: 0.25rem 0.5rem;
   border-bottom: 1px solid hsl(206, 19%, 24%);
+  border-left: 2px solid hsl(206, 19%, 24%);
   color: hsla(240, 100%, 100%, 0.91);
   font-family: "Encode Sans", sans-serif;
   font-size: 1.25rem;

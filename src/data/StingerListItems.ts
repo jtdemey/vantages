@@ -3,7 +3,7 @@ import { genLi } from "../utils/ListItemGenerator";
 
 const StingerListItems: TileListElement[] = [
   genLi("slider", "Slider"),
-  genLi("something", "Something")
+  genLi("neon", "Neon")
 ];
 
 export default StingerListItems;

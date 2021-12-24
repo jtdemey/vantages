@@ -4,11 +4,13 @@ import { between } from "../../utils/RandomUtils";
 import styled from "styled-components";
 
 type CascadingHeaderProps = {
+  backgroundColor?: string;
   text: string;
 };
 
-const Header = styled.h1`
-  padding-top: 6rem;
+const Header = styled(motion.h1)`
+  margin: 6rem auto 0;
+  padding: 0.4rem;
   color: hsla(240, 100%, 100%, 0.91);
   text-align: center;
   font-family: "Xanh Mono", serif;
@@ -27,10 +29,10 @@ const Span = styled(motion.span)`
   }
 `;
 
-const CascadingHeader = ({ text }: CascadingHeaderProps) => {
+const CascadingHeader = ({ backgroundColor, text }: CascadingHeaderProps) => {
   const chars = text.split("");
   return (
-    <Header>
+    <Header style={{ background: backgroundColor ?? "none" }}>
       {chars.map((character: string, i: number) => (
         <Span
           key={i}

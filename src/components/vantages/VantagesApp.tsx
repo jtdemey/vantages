@@ -16,7 +16,7 @@ const Container = styled.div`
 const VantagesApp = (): JSX.Element => {
   return (
     <Container>
-      <CascadingHeader text="Vantages" />
+      <CascadingHeader backgroundColor="#2D5D7B" text="Vantages" />
       <TileList header="Stingers" items={StingerListItems} />
     </Container>
   );
